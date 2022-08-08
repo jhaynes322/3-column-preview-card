@@ -67,4 +67,44 @@ p {
     font-family: 'Lexend Deca', sans-serif;
     color: var(--paragraphs);
     padding-bottom: 30px;
+    line-height: 1.5em;
+}
+
+button {
+    border: none;
+    background-color: var(--bg-text);
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+#sedan-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+#suv-btn {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury-btn {
+    color: hsl(179, 100%, 13%);
+}
+
+#sedan-btn:hover {
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: var(--bright-orange);
+}
+
+#suv-btn:hover {
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: var(--dark-cyan);
+}
+
+#luxury-btn:hover {
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: var(--very-dark-cyan);
 }
