@@ -32,6 +32,8 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 90vw;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .sedans-box {
@@ -56,9 +58,12 @@ body {
 h2 {
     font-family: 'Big Shoulders Display', cursive;
     color: var(--bg-text);
+    padding-top: 2.6em;
+    padding-bottom: 2.6em;
 }
 
 p {
     font-family: 'Lexend Deca', sans-serif;
     color: var(--paragraphs);
+    padding-bottom: 1.6em;
 }
