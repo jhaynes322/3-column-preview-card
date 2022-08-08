@@ -109,13 +109,14 @@ button {
     background-color: var(--very-dark-cyan);
 }
 
-/*
-@media only screen and (max-width: 1440px) {
+
+@media only screen and (min-width: 900px) {
+
     .main-container {
         display: flex;
         flex-direction: row;
-        width: 920px;
-        height: 500px;
+        max-width: 75vw;
+        height: auto;
         justify-content: center;
         align-items: center;
     }
@@ -123,5 +124,10 @@ button {
     .sedans-box {
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0px;
+    }
+
+    .luxury-box {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
     }
 }
